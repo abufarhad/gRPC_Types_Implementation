@@ -1,8 +1,8 @@
 # gRPC Types - unary, server, client, Bi-directional streaming Implementation
 
-## Run Process
+# Run Process
 
-## 1. Generate code  
+## Generate code  
 ```go
 protoc --go_out=. --go-grpc_out=. proto/greet.proto    
 ```
